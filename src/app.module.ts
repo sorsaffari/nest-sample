@@ -10,6 +10,7 @@ import { ContextLoggerModule } from "nestjs-context-logger";
         transport: {
           target: "pino-pretty",
         },
+        autoLogging: false,
       },
     }),
     CatsModule,
